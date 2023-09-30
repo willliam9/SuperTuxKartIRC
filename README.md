@@ -9,4 +9,7 @@ https://github.com/willliam9/SuperTuxKartIRC/releases/tag/pre-release
 - Victory screen for 4 teams (the victory screen is currently not correct)
 - Finish online mode (currently not working)
 - The player or the AI do not appear in the right place.
+- The number of life is not currently not working 
 - Did a forgot something ...
+
+# If you have any suggestions for improving what I've done, let me know.
