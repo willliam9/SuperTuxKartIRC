@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="mudpot_a" category="nature">
+<img path="stklib_mudpot_a.png">
+<model path="stklib_mudpot_a/stklib_mudpot_a_main.spm">
+</library>

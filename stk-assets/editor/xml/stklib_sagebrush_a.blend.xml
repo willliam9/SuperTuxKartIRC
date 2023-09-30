@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="sagebrush_a" category="nature">
+<img path="stklib_sagebrush_a.png">
+<model path="stklib_sagebrush_a/stklib_sagebrush_a_main.spm">
+</library>

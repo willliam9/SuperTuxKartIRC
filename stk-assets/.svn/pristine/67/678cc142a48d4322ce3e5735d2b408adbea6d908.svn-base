@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="slivianFountain_a" category="water">
+<img path="stklib_slivianFountain_a.png">
+<model path="stklib_slivianFountain_a/stklib_slivianFountain_a_main.spm">
+</library>

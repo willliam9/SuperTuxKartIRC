@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="redShell_a" category="nature">
+<img path="stklib_redShell_a.png">
+<model path="stklib_redShell_a/stklib_redShell_a_main.spm">
+</library>

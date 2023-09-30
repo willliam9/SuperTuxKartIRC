@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="bigAirBlower_a" category="industry">
+<img path="stklib_bigAirBlower_a.png">
+<model path="stklib_bigAirBlower_a/stklib_bigAirBlower_a_main.spm">
+</library>

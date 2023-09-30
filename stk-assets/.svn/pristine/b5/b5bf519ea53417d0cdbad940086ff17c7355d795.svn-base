@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="monkeyCheering_a" category="crowd">
+<img path="stklib_monkeyCheering_a.png">
+<model path="stklib_monkeyCheering_a/stklib_monkeyCheering_a_main.spm">
+</library>

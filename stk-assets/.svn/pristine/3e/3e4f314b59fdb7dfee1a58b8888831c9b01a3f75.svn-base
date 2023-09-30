@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="accacia_a" category="nature">
+<img path="stklib_accacia_a.png">
+<model path="stklib_accacia_a/stklib_accacia_a_main.spm">
+</library>

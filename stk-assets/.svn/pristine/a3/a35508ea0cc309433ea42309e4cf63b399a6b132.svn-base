@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="modernHousing_b" category="buildings">
+<img path="stklib_modernHousing_b.png">
+<model path="stklib_modernHousing_b/stklib_modernHousing_b_main.spm">
+</library>

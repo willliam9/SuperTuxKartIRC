@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="usSignMerge_a" category="roadSign">
+<img path="stklib_usSignMerge_a.png">
+<model path="stklib_usSignMerge_a/stklib_usSignMerge_a_main.spm">
+</library>

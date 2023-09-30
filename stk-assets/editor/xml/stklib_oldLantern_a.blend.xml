@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="oldLantern_a" category="lamps">
+<img path="stklib_oldLantern_a.png">
+<model path="stklib_oldLantern_a/stklib_oldLantern_a_main.spm">
+</library>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16317 -->
+<scene>
+  <track model="ScriptingPlayground_track.b3d" x="0" y="0" z="0">
+    <static-object  model="StaticBlueInGreen.b3d" xyz="-11.92 1.31 43.36" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  model="StaticRedInGreen.b3d" xyz="-28.05 1.31 27.92" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+  </track>
+  <object id="GhostPinkInGreen" type="animation" xyz="-19.64 1.31 35.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="GhostPinkInGreen.b3d" skeletal-animation="false">
+  </object>
+  <object type="movable" id="MovableGreenInGreen" xyz="-43.66 1.31 11.96" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
+          shape="box" mass="100.0" model="MovableGreenInGreen.b3d" on-kart-collision="onLibraryNodeCollision" skeletal-animation="false"/>
+  <object type="movable" id="MovableYellowInGreen" xyz="-35.77 1.31 19.85" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
+          shape="box" mass="100.0" model="MovableYellowInGreen.b3d" on-kart-collision="onLibraryNodeCollision" skeletal-animation="false"/>
+  <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg genericskybox_east.jpg genericskybox_west.jpg genericskybox_south.jpg genericskybox_north.jpg" />
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0"  />
+  </checks>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <library name="ScriptingTest" id="LibInst1" xyz="15.49 1.14 44.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest" id="LibInst2.001" xyz="24.80 1.14 37.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest" id="LibInst3" xyz="35.16 1.14 29.06" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest" id="LibInst4" xyz="45.16 1.14 19.32" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest2" id="Wall_proxy" xyz="-43.81 -0.79 -20.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest2" id="Wall_proxy.001" xyz="-33.53 -0.79 -37.78" hpr="0.0 -51.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="ScriptingTest2" id="Wall_proxy.002" xyz="-8.84 -0.79 -46.48" hpr="0.0 -89.3 0.0" scale="1.00 1.00 1.00">
+  </library>
+</scene>

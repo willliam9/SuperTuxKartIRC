@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16317 -->
+<scene>
+  <object id="Cube" type="animation" xyz="0.00 1.14 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="libTest_Static.b3d" skeletal-animation="false">
+  </object>
+  <object type="movable" id="Cube.001" xyz="0.00 1.14 2.63" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
+          shape="box" mass="100.0" model="libTest_SMovable.b3d" on-kart-collision="onLibraryNodeCollision" skeletal-animation="false"/>
+</scene>

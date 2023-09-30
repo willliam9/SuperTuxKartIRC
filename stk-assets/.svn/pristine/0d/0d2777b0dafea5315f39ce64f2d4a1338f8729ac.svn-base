@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="jungleTree_b" category="nature">
+<img path="stklib_jungleTree_b.png">
+<model path="stklib_jungleTree_b/stklib_jungleTree_b_main.spm">
+</library>

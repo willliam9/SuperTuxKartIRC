@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 15937 -->
+<track  name           = "Antarctica"
+        version        = "6"
+        groups         = "wip-track"
+        designer       = "Jean-Manuel Clemencon"
+        music          = "snowmountain.music"
+        screenshot     = "sshot-snowtuxpeak.jpg"
+        smooth-normals = "true"
+        default-number-of-laps = "3"
+        reverse        = "Y"
+        bloom          = "Y"
+        bloom-threshold = "0.75"
+        clouds         = "N"
+        shadows        = "Y"
+>
+</track>

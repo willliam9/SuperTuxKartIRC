@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="orangeCocktail_a" category="streetFurniture">
+<img path="stklib_orangeCocktail_a.png">
+<model path="stklib_orangeCocktail_a/stklib_orangeCocktail_a_main.spm">
+</library>

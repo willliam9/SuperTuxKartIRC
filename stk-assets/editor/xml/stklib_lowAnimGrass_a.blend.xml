@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="lowAnimGrass_a" category="nature">
+<img path="stklib_lowAnimGrass_a.png">
+<model path="stklib_lowAnimGrass_a/stklib_lowAnimGrass_a_main.spm">
+</library>

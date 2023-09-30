@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="gfxGlow_White_a.png" gloss-map="gfxGlow_generic_a_gloss.png">
+    <particles base="water.xml" condition="skid drive"/>
+  </material>
+  <material name="puck.png" gloss-map="puck_gloss.png"/>
+  <material name="stk_blueTurbine_a.png" shader="alphatest" reset="Y"/>
+  <material name="stk_darkGrayMetal_a.png" gloss-map="stk_greyMetal_a_gloss.png">
+    <particles base="water.xml" condition="skid drive"/>
+  </material>
+  <material name="stk_emptyPanel_b.png" gloss-map="stk_greyMetal_a_gloss.png"/>
+  <material name="stk_glassPanel_a.png" shader="alphablend"/>
+  <material name="stk_lightGrayMetal_a.png" gloss-map="stk_greyMetal_a_gloss.png">
+    <particles base="water.xml" condition="skid drive"/>
+  </material>
+  <material name="stk_longEmptyPanel_a.png" gloss-map="stk_greyMetal_a_gloss.png"/>
+</materials>

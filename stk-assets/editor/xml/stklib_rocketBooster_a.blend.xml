@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="rocketBooster_a" category="industry">
+<img path="stklib_rocketBooster_a.png">
+<model path="stklib_rocketBooster_a/stklib_rocketBooster_a_main.spm">
+</library>

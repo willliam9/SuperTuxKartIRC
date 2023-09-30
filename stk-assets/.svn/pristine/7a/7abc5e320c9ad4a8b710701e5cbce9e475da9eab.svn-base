@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="skyBeam_a" category="lamps">
+<img path="stklib_skyBeam_a.png">
+<model path="stklib_skyBeam_a/stklib_skyBeam_a_main.spm">
+</library>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="oldLightBulbGroup" category="lamps">
+<img path="stklib_oldLightBulbGroup.png">
+<model path="stklib_oldLightBulbGroup/stklib_oldLightBulbGroup_main.spm">
+</library>

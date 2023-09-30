@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 15295 -->
+<track  name           = "Luna"
+        version        = "6"
+        groups         = "nextgen"
+        designer       = "jean-manuel clemencon"
+        smooth-normals = "false"
+        reverse        = "N"
+        screenshot     = "screenshot.jpg"
+>
+</track>

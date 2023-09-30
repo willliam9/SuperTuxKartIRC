@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="fishSkeleton_a" category="nature">
+<img path="stklib_fishSkeleton_a.png">
+<model path="stklib_fishSkeleton_a/stklib_fishSkeleton_a_main.spm">
+</library>

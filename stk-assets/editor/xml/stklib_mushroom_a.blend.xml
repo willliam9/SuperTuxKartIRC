@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="mushroom_a" category="nature">
+<img path="stklib_mushroom_a.png">
+<model path="stklib_mushroom_a/stklib_mushroom_a_main.spm">
+</library>

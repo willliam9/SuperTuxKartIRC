@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 15295 -->
+<scene>
+  <track model="luna_01_track.b3d" x="0" y="0" z="0"/>
+  <object type="animation" xyz="-156.30 -19.86 164.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Circle.001.b3d" skeletal-animation="false">
+  </object>
+  <object type="animation" xyz="-30.02 10.44 -235.44" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="water_apollo_tunnel.b3d" displacing="true" skeletal-animation="false">
+  </object>
+  <sun  xyz="0.00 174.65 761.34" sun-diffuse="255 109 77" ambient="120 120 120"/>
+  <sky-box texture="sky.png sky.png sky.png sky.png sky.png sky.png" sh-texture="sky.png sky.png sky.png sky.png sky.png sky.png"/>
+  <camera far="8000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0"  />
+    <cannon p1="-191.95 0.32 -282.33" p2="-166.48 0.32 -282.33" target-p1="-169.84 13.16 71.41" target-p2="-151.35 13.05 75.43">
+    <curve channel="LocXYZ" speed="100.00" curvetype="bezier" extend="const">
+      <point c="-180.335190 3.483479 -279.973785" h1="-180.581558 -6.606892 -292.745483" h2="-179.819977 24.583492 -253.266846" />
+      <point c="-177.453888 139.690109 -128.240616" h1="-175.939133 146.251022 -200.372604" h2="-178.211273 136.409653 -92.174637" />
+      <point c="-181.955597 130.306808 13.652954" h1="-185.866425 145.009277 -39.283615" h2="-178.044785 115.604340 66.589523" />
+      <point c="-162.935394 12.320139 71.098984" h1="-174.816910 11.565032 -0.647362" h2="-159.197723 12.557680 93.668869" />
+    </curve>
+    </cannon>
+  </checks>
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.50"
+                 sidewards-distance="3.00"
+                 upwards-distance  ="0.10"/>
+  <library name="stklib_balcony_a" xyz="-38.05 69.08 -180.73" hpr="-0.0 -90.0 0.0" scale="2.90 2.90 2.90"/>
+  <library name="stklib_chimney_a" xyz="-14.10 16.68 -71.80" hpr="-0.0 -90.0 0.0" scale="3.96 3.96 3.96"/>
+  <library name="stklib_chimney_a" xyz="-85.10 16.68 -57.80" hpr="0.0 -0.0 0.0" scale="3.96 3.96 3.96"/>
+  <library name="stklib_loveAlcove_a" xyz="-11.23 1.51 -306.11" hpr="-0.0 -157.1 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveAlcove_a" xyz="-7.50 1.51 -217.54" hpr="-0.0 170.0 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveAlcove_a" xyz="-2.44 1.51 -262.16" hpr="-0.0 178.3 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveAlcove_a" xyz="-42.03 1.51 -333.85" hpr="-0.0 -110.8 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveGate_a" xyz="-37.97 10.25 -188.41" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveGate_a" xyz="-80.58 -1.69 -318.47" hpr="-0.0 -180.0 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveGate_a" xyz="-24.06 -4.03 -285.09" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-6.23 24.56 -239.93" hpr="-0.0 81.8 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-24.03 27.68 -282.57" hpr="-0.0 174.8 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-22.66 24.56 -323.65" hpr="0.0 154.1 0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-70.84 24.56 -339.28" hpr="0.0 177.2 0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-13.84 24.56 -196.27" hpr="-0.0 81.8 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_loveLantern_a" xyz="-24.03 27.68 -286.26" hpr="0.0 -5.2 -0.0" scale="1.00 1.00 1.00"/>
+  <library name="stklib_pinkRibbon_a" xyz="-38.00 52.91 -181.34" hpr="90.0 0.0 -180.0" scale="4.80 4.80 4.80"/>
+</scene>

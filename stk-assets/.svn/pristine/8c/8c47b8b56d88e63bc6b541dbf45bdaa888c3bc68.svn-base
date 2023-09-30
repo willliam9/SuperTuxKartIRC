@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="aztecHouse_b" category="buildings">
+<img path="stklib_aztecHouse_b.png">
+<model path="stklib_aztecHouse_b/stklib_aztecHouse_b_main.spm">
+</library>

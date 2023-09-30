@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16649 -->
+<scene>
+  <track model="city_catalina_track.b3d" x="0" y="0" z="0">
+    <static-object  model="sand-clouds.b3d" xyz="70.71 43.65 -219.66" hpr="-90.0 -60.2 -0.0" scale="0.50 0.50 0.50">
+    <animated-texture name="gfx_sandAnimated_a.png" dx="0.002"  dy="0.0625"  animByStep="true" dt="0.050" />
+    </static-object>
+  </track>
+  <object id="bus body.003" type="animation" xyz="55.12 5.01 -276.89" hpr="0.0 -0.0 0.0" scale="5.30 5.30 30.99" interaction="ghost" model="metro_bus.b3d" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 55.119" h1="-18.130 55.119" h2="20.130 55.119"/>
+      <p c="50.000 55.119" h1="30.870 55.119" h2="61.712 55.119"/>
+      <p c="80.000 55.119" h1="68.288 55.119" h2="103.425 55.119"/>
+      <p c="140.000 55.119" h1="116.575 55.119" h2="163.425 55.119"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -276.891" h1="-18.130 -276.891" h2="20.130 -276.891"/>
+      <p c="50.000 141.199" h1="30.870 141.199" h2="61.712 141.199"/>
+      <p c="80.000 141.199" h1="68.288 141.199" h2="103.425 141.199"/>
+      <p c="140.000 457.915" h1="116.575 457.915" h2="163.425 457.915"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 5.012" h1="-18.130 5.012" h2="20.130 5.012"/>
+      <p c="50.000 5.012" h1="30.870 5.012" h2="61.712 5.012"/>
+      <p c="80.000 5.012" h1="68.288 5.012" h2="103.425 5.012"/>
+      <p c="140.000 5.012" h1="116.575 5.012" h2="163.425 5.012"/>
+    </curve>
+  </object>
+  <sun  fog="true" fog-color="37 21 32" fog-max="0.30000001192092896" fog-start="10.00" fog-end="300.00" xyz="52.09 203.04 326.42" sun-diffuse="255 118 24" ambient="85 85 85"/>
+  <sky-box texture="genericskybox_top.jpg genericskybox_bottom.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg" sh-texture="sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0"  />
+  </checks>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <library name="stklib_cartraffic_a" id="stklib_cartraffic_a_main_proxy" xyz="22.54 0.00 85.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 22.536" h1="-98.333 22.536" h2="100.333 22.536"/>
+      <p c="299.000 22.536" h1="199.667 22.536" h2="398.333 22.536"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 85.138" h1="-98.333 150.725" h2="100.333 19.551"/>
+      <p c="299.000 -111.623" h1="199.667 -46.036" h2="398.333 -177.210"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 0.000" h1="-98.333 0.000" h2="100.333 0.000"/>
+      <p c="299.000 0.000" h1="199.667 0.000" h2="398.333 0.000"/>
+    </curve>
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy" xyz="12.96 -0.55 1.16" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.001" xyz="18.77 -0.55 20.85" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.002" xyz="14.48 -0.55 36.61" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.003" xyz="12.96 -0.55 17.31" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.004" xyz="14.46 -0.55 -50.98" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.005" xyz="15.99 -0.55 -31.68" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.006" xyz="20.27 -0.55 -47.43" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.007" xyz="14.46 -0.55 -67.13" hpr="0.0 -0.0 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.008" xyz="76.15 -7.44 245.24" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.009" xyz="70.34 -7.44 225.55" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.010" xyz="74.62 -7.44 209.79" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.011" xyz="76.15 -7.44 229.10" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.012" xyz="77.65 -7.44 160.81" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.013" xyz="76.13 -7.44 141.50" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.014" xyz="71.84 -7.44 157.26" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.015" xyz="77.65 -7.44 176.95" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.016" xyz="77.65 -0.69 7.96" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.017" xyz="71.84 -0.69 -11.73" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.018" xyz="76.13 -0.69 -27.49" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.019" xyz="77.65 -0.69 -8.18" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.020" xyz="76.15 -0.69 60.11" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.021" xyz="74.62 -0.69 40.80" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.022" xyz="70.34 -0.69 56.56" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.023" xyz="76.15 -0.69 76.25" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.024" xyz="76.15 -0.69 -47.48" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.025" xyz="70.34 -0.69 -67.17" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.026" xyz="74.62 -0.69 -82.93" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.027" xyz="76.15 -0.69 -63.62" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.028" xyz="77.65 -0.69 -131.91" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.029" xyz="76.13 -0.69 -151.22" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.030" xyz="71.84 -0.69 -135.46" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.031" xyz="77.65 -0.69 -115.77" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.032" xyz="18.56 -10.06 245.59" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.033" xyz="12.75 -10.06 225.90" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.034" xyz="17.03 -10.06 210.14" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.035" xyz="18.56 -10.06 229.45" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.036" xyz="17.05 -10.06 297.74" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.037" xyz="15.53 -10.06 278.43" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.038" xyz="11.24 -10.06 294.19" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_oldCar_a" id="stklib_oldCar_a_main_proxy.039" xyz="17.05 -10.06 313.88" hpr="0.0 180.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy" xyz="34.88 -2.77 -55.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.001" xyz="34.50 -2.77 -47.07" hpr="-0.0 -145.9 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.002" xyz="35.10 -2.77 -28.56" hpr="-0.0 -145.9 -0.0" scale="0.85 0.85 0.85">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.003" xyz="35.42 -2.77 -35.67" hpr="0.0 -0.0 0.0" scale="0.85 0.85 0.85">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.004" xyz="35.49 -2.77 3.12" hpr="0.0 -0.0 0.0" scale="0.98 0.98 0.98">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.005" xyz="35.12 -2.77 11.27" hpr="-0.0 -145.9 -0.0" scale="0.98 0.98 0.98">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.006" xyz="34.44 -2.77 -9.95" hpr="-0.0 -145.9 -0.0" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.007" xyz="34.87 -2.77 -19.50" hpr="0.0 -0.0 0.0" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.008" xyz="35.02 -11.41 205.66" hpr="0.0 -0.0 0.0" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.009" xyz="34.58 -11.41 215.21" hpr="-0.0 -145.9 -0.0" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.010" xyz="35.26 -11.41 236.43" hpr="-0.0 -145.9 -0.0" scale="0.98 0.98 0.98">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.011" xyz="35.63 -11.41 228.28" hpr="0.0 -0.0 0.0" scale="0.98 0.98 0.98">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.012" xyz="35.57 -11.41 189.49" hpr="0.0 -0.0 0.0" scale="0.85 0.85 0.85">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.013" xyz="35.24 -11.41 196.59" hpr="-0.0 -145.9 -0.0" scale="0.85 0.85 0.85">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.014" xyz="34.65 -11.41 178.08" hpr="-0.0 -145.9 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_palmTree_a" id="stklib_palmTree_a_main_proxy.015" xyz="35.03 -11.41 169.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+</scene>

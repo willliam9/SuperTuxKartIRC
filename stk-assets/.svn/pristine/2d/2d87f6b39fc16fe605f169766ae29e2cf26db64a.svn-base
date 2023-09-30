@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="electricalFence_a" category="streetFurniture">
+<img path="stklib_electricalFence_a.png">
+<model path="stklib_electricalFence_a/stklib_electricalFence_a_main.spm">
+</library>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="papiAirport_a" category="industry">
+<img path="stklib_papiAirport_a.png">
+<model path="stklib_papiAirport_a/stklib_papiAirport_a_main.spm">
+</library>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="armchair_a" category="buildings">
+<img path="stklib_armchair_a.png">
+<model path="stklib_armchair_a/stklib_armchair_a_main.spm">
+</library>

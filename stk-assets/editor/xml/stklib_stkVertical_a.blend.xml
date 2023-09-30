@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="stkVertical_a" category="flags">
+<img path="stklib_stkVertical_a.png">
+<model path="stklib_stkVertical_a/stklib_stkVertical_a_main.spm">
+</library>

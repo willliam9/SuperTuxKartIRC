@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16317 -->
+<scene>
+  <object type="movable" id="Cube.000" xyz="0.03 0.32 0.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.001" xyz="0.03 0.32 -0.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.002" xyz="0.03 0.32 -0.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.003" xyz="0.03 0.93 -0.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.004" xyz="0.03 0.93 0.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.005" xyz="0.03 0.93 -0.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.006" xyz="0.03 1.56 -0.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.007" xyz="0.03 1.56 0.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.008" xyz="0.03 1.56 -0.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.009" xyz="0.03 2.18 -0.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.010" xyz="0.03 2.18 0.59" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object type="movable" id="Cube.011" xyz="0.03 2.18 -0.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" if="false"
+          shape="box" mass="100.0" model="wall_part.b3d" skeletal-animation="false"/>
+  <object id="Wall" type="animation" xyz="0.63 0.06 -0.03" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="wallSolid.b3d" skeletal-animation="false" on-kart-collision="onWallCollision">
+  </object>
+</scene>

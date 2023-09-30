@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="lamponeFlag_a" category="flags">
+<img path="stklib_lamponeFlag_a.png">
+<model path="stklib_lamponeFlag_a/stklib_lamponeFlag_a_main.spm">
+</library>

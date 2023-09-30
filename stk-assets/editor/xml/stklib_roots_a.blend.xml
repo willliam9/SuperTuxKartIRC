@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="roots_a" category="nature">
+<img path="stklib_roots_a.png">
+<model path="stklib_roots_a/stklib_roots_a_main.spm">
+</library>

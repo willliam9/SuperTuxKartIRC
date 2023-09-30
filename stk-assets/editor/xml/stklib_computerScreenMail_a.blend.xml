@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="computerScreenMail_a" category="industry">
+<img path="stklib_computerScreenMail_a.png">
+<model path="stklib_computerScreenMail_a/stklib_computerScreenMail_a_main.spm">
+</library>

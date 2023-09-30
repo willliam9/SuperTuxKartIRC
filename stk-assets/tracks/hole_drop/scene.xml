@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <track model="hole_drop_track.spm" x="0" y="0" z="0"/>
+  <object id="background_fan" type="animation" xyz="0.00 -10.00 0.00" hpr="0.0 -7.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="background_fan.spm" skeletal-animation="false">
+    <curve channel="RotY" interpolation="linear" extend="cyclic">
+      <p c="0.000 -0.000"/>
+      <p c="50.000 -360.000"/>
+    </curve>
+  </object>
+  <object id="barrier" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physicsonly" shape="exact" model="barrier.spm" shadow-pass="false" skeletal-animation="false">
+  </object>
+  <object id="clouds" type="animation" xyz="0.00 -63.11 0.00" hpr="-79.4 77.4 -79.6" scale="0.47 0.47 0.47" interaction="ghost" model="clouds.spm" shadow-pass="false" skeletal-animation="false">
+  </object>
+  <object id="field_lining" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="field_lining.spm" skeletal-animation="false">
+  </object>
+  <object id="holes" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="holes.spm" skeletal-animation="false">
+  </object>
+  <object type="movable" id="Puck" xyz="0.00 3.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
+          shape="cylinderY" mass="20.0" model="puck.spm" soccer_ball="true" friction="0.5" restitution="0.6" linear-factor="1.0 1.0 1.0" angular-factor="0.0 1.0 0.0" linear-damping="0.0" angular-damping="0.9" skeletal-animation="false"/>
+  <object id="pusher_blue" type="animation" xyz="0.00 -5.00 42.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_blue.spm" shadow-pass="false" skeletal-animation="false">
+    <curve channel="LocZ" interpolation="linear" extend="cyclic">
+      <p c="0.000 41.500"/>
+      <p c="25.000 75.000"/>
+    </curve>
+  </object>
+  <object id="pusher_red" type="animation" xyz="0.00 -5.00 -42.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_red.spm" shadow-pass="false" skeletal-animation="false">
+    <curve channel="LocZ" interpolation="linear" extend="cyclic">
+      <p c="0.000 -41.500"/>
+      <p c="25.000 -75.000"/>
+    </curve>
+  </object>
+  <sun  fog="true" fog-color="50 50 50" fog-max="0.5" fog-start="15.00" fog-end="500.00" xyz="296.24 -0.01 10.79" sun-specular="24 53 150" sun-diffuse="24 53 150" ambient="220 220 220"/>
+  <weather particles="rain.xml"/>
+  <sky-box texture="skybox-top.jpg skybox-bottom.jpg skybox-east.jpg skybox-west.jpg skybox-south.jpg skybox-north.jpg" sh-texture="ibl.jpg ibl.jpg ibl.jpg ibl.jpg ibl.jpg ibl.jpg"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-line kind="lap" p1="-1.00 0.00" p2="1.00 0.00"
+                min-height="0.00"  />
+    <goal p1="52.40 -6.01 65.00" p2="-52.46 -6.01 65.00"  first_goal="true" />
+    <goal p1="-52.24 -6.01 -65.00" p2="52.24 -6.01 -65.00" />
+  </checks>
+  <object type="sfx-emitter" id="rain" sound="rain.ogg" rolloff="0.100" volume="0.800000011920929" max_dist="500.0" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </object>
+  <big-nitro id="BigNitro.000" x="-37.50" y="10.00" z="0.00" />
+  <big-nitro id="BigNitro.001" x="37.50" y="10.00" z="0.00" />
+  <item id="Item.000" x="0.00" y="10.00" z="24.00" />
+  <item id="Item.001" x="0.00" y="10.00" z="-24.00" />
+  <item id="Item.002" x="-30.00" y="10.00" z="0.00" />
+  <item id="Item.003" x="30.00" y="10.00" z="0.00" />
+  <small-nitro id="Nitro.000" x="-31.16" y="10.00" z="47.73" />
+  <small-nitro id="Nitro.001" x="31.16" y="10.00" z="47.73" />
+  <small-nitro id="Nitro.002" x="-31.16" y="10.00" z="-47.73" />
+  <small-nitro id="Nitro.003" x="31.16" y="10.00" z="-47.73" />
+  <light xyz="-20.94 0.83 64.15" id="Light.000" distance="100.00" energy="10.00" color="0 63 255">
+  </light>
+  <light xyz="20.94 0.83 64.15" id="Light.001" distance="100.00" energy="10.00" color="0 63 255">
+  </light>
+  <light xyz="45.64 0.83 39.46" id="Light.002" distance="100.00" energy="10.00" color="0 63 255">
+  </light>
+  <light xyz="-45.64 0.83 39.46" id="Light.003" distance="100.00" energy="10.00" color="0 63 255">
+  </light>
+  <light xyz="-45.64 0.83 0.00" id="Light.004" distance="100.00" energy="5.00" color="255 255 255">
+  </light>
+  <light xyz="45.64 0.83 0.00" id="Light.005" distance="100.00" energy="5.00" color="255 255 255">
+  </light>
+  <light xyz="-20.94 0.83 -64.15" id="Light.006" distance="100.00" energy="10.00" color="255 0 0">
+  </light>
+  <light xyz="20.94 0.83 -64.15" id="Light.007" distance="100.00" energy="10.00" color="255 0 0">
+  </light>
+  <light xyz="45.64 0.83 -39.46" id="Light.008" distance="100.00" energy="10.00" color="255 0 0">
+  </light>
+  <light xyz="-45.64 0.83 -39.46" id="Light.009" distance="100.00" energy="10.00" color="255 0 0">
+  </light>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <start x="-0.05" y="0.24" z="52.18" h="180.00"/>
+  <start x="-0.01" y="0.24" z="-53.06" h="0.00"/>
+  <start x="4.77" y="0.24" z="52.18" h="180.00"/>
+  <start x="-4.38" y="0.24" z="-53.18" h="0.00"/>
+  <start x="2.91" y="0.24" z="55.14" h="180.00"/>
+  <start x="-2.37" y="0.24" z="-56.06" h="0.00"/>
+  <start x="-1.91" y="0.24" z="55.07" h="180.00"/>
+  <start x="1.75" y="0.24" z="-56.06" h="0.00"/>
+  <start x="-4.68" y="0.24" z="52.18" h="180.00"/>
+  <start x="4.12" y="0.24" z="-53.06" h="0.00"/>
+  <start x="-6.54" y="0.24" z="55.07" h="180.00"/>
+  <start x="5.39" y="0.24" z="-56.06" h="0.00"/>
+  <start x="6.62" y="0.24" z="55.14" h="180.00"/>
+  <start x="-6.74" y="0.24" z="-56.04" h="0.00"/>
+</scene>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="oldCar_a" category="vehicles">
+<img path="stklib_oldCar_a.png">
+<model path="stklib_oldCar_a/stklib_oldCar_a_main.spm">
+</library>

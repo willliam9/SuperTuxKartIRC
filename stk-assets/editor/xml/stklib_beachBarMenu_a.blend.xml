@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="beachBarMenu_a" category="streetFurniture">
+<img path="stklib_beachBarMenu_a.png">
+<model path="stklib_beachBarMenu_a/stklib_beachBarMenu_a_main.spm">
+</library>

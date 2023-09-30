@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="entranceGuardianMale_a" category="lamps">
+<img path="stklib_entranceGuardianMale_a.png">
+<model path="stklib_entranceGuardianMale_a/stklib_entranceGuardianMale_a_main.spm">
+</library>

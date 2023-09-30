@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="inflatableFence_c" category="streetFurniture">
+<img path="stklib_inflatableFence_c.png">
+<model path="stklib_inflatableFence_c/stklib_inflatableFence_c_main.spm">
+</library>

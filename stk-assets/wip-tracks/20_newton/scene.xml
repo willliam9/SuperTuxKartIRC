@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <track model="20_newton_track.spm" x="0" y="0" z="0"/>
+  <sun  xyz="0.00 278.07 119.60" sun-diffuse="255 250 186" ambient="120 120 120"/>
+  <sky-box texture="sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg" sh-texture="sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg sky2.jpg"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="76.60 -6.76 -19.31" p2="96.15 -6.76 -19.31"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="87.43 -17.21 127.68" p2="86.07 2.29 127.57"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="103.29 -25.51 359.35" p2="83.84 -23.52 359.25"
+                same-group="3"/>
+    <check-line kind="activate" other-ids="0" p1="-51.07 -43.33 168.46" p2="-34.02 -25.70 168.74"
+                same-group="4"/>
+  </checks>
+  <banana id="Empty" x="86.54" y="-2.84" z="107.05" />
+  <banana id="Empty.001" x="86.54" y="-10.68" z="107.05" />
+  <item id="Empty.002" x="86.54" y="-6.76" z="107.05" />
+  <big-nitro id="Empty.003" x="86.54" y="-6.76" z="225.16" />
+  <banana id="Empty.004" x="89.06" y="-18.72" z="335.43" />
+  <item id="Empty.005" x="81.88" y="-5.99" z="-24.07" />
+  <item id="Empty.006" x="88.17" y="-6.42" z="-22.32" />
+  <item id="Empty.007" x="30.20" y="52.68" z="-60.64" />
+  <banana id="Empty.008" x="-36.12" y="-0.09" z="-68.09" />
+  <small-nitro id="Empty.009" x="108.89" y="-23.16" z="433.17" />
+  <item id="Empty.010" x="-31.19" y="-21.80" z="467.88" />
+  <item id="Empty.011" x="-42.27" y="-32.44" z="232.08" />
+  <item id="Empty.012" x="-34.42" y="4.65" z="-72.70" />
+  <banana id="Empty.013" x="27.08" y="55.35" z="-57.40" />
+  <small-nitro id="Empty.014" x="67.99" y="29.13" z="-59.94" />
+  <small-nitro id="Empty.015" x="73.67" y="30.17" z="-56.68" />
+  <small-nitro id="Empty.016" x="-44.62" y="-34.43" z="230.69" />
+  <item id="Empty.017" x="-47.13" y="-37.00" z="229.16" />
+  <banana id="Empty.018" x="-30.44" y="-25.66" z="466.56" />
+  <item id="Empty.019" x="-29.99" y="-29.73" z="465.18" />
+  <big-nitro id="Empty.020" x="92.03" y="-18.72" z="335.43" />
+  <big-nitro id="Empty.021" x="86.03" y="-18.72" z="335.43" />
+  <item id="Empty.022" x="104.14" y="-21.41" z="431.36" />
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.10"
+                 sidewards-distance="1.10"
+                 upwards-distance  ="1.10"/>
+</scene>

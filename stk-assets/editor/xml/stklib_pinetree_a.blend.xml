@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="pinetree_a" category="nature">
+<img path="stklib_pinetree_a.png">
+<model path="stklib_pinetree_a/stklib_pinetree_a_main.spm">
+</library>

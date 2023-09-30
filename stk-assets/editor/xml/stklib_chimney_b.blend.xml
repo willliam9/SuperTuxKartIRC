@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="chimney_b" category="buildings">
+<img path="stklib_chimney_b.png">
+<model path="stklib_chimney_b/stklib_chimney_b_main.spm">
+</library>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<library name="lowRockBarrier_a" category="lowPoly">
+<img path="stklib_lowRockBarrier_a.png">
+<model path="stklib_lowRockBarrier_a/stklib_lowRockBarrier_a_main.spm">
+</library>
