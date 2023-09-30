@@ -5,7 +5,7 @@
       icon-file         = "konqi_icon.png"
       minimap-icon-file = "konqi_icon.png"
       shadow-file       = "konqi_shadow.png"
-      type              = "light"
+      type              = "medium"
       groups            = "standard"
       rgb               = "0.00 0.59 0.00" >
   <sounds engine = "large">

@@ -32,7 +32,6 @@
     <!-- End of global sticking textures -->
 
 
-  <material name="oasis-water.png" shader="displace" ignore="Y"/>
   <material name="Sara_Accesories_base.png" colorizable="Y"/>
   <material name="Sara_Cloth_Dif.png" colorizable="Y" colorization-mask="Sara_Cloth_Colormask.png"/>
   <material name="Sara_Lower_dif.png" colorizable="Y"/>
@@ -53,7 +52,6 @@
     END of HD textures
     -->
 
-  <material name="racetrack_tire.png"  gloss-map="racetrack_tire_gloss.png" graphical-effect="normal_map" normal-map="racetrack_tire_Normal.png"/>
   <material name="jungleWater.png" shader="displace" ignore="Y"/>
   <material name="oceanicWater.png" shader="displace" ignore="Y"/>
   <material name="gfx_distord_AlphaTested.png" shader="displace" ignore="Y"/>

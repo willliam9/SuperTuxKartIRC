@@ -6,7 +6,7 @@
       icon-file         = "gavroche_icon.png"
       minimap-icon-file = "gavroche_icon.png"
       shadow-file       = "gavroche_shadow.png"
-      type              = "medium-medium"
+      type              = "medium"
       groups            = "standard"
       rgb               = "1.00 1.00 1.00" >
   <sounds engine = "small"/>

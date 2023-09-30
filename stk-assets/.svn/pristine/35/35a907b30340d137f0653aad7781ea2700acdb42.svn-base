@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<library name="silvianHouse_c" category="buildings">
-<img path="stklib_silvianHouse_c.png">
-<model path="stklib_silvianHouse_c/stklib_silvianHouse_c_main.spm">
-</library>

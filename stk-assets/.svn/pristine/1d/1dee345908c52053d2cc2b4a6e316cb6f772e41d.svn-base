@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<library name="hexajet_a" category="vehicles">
-<img path="stklib_hexajet_a.png">
-<model path="stklib_hexajet_a/stklib_hexajet_a_main.spm">
-</library>

@@ -8,22 +8,6 @@ Source: https://supertuxkart.net
 License: Various
 
 Files:
- racetrack_tire_gloss.png
- racetrack_tire_Normal.png
-Copyright: Alexin6035
-License: CC0
-
-Files:
- oasis-water.png
-Copyright: Samuncle
-License: CC0
-
-Files:
- stk_whiteFutureSquareLight_a.png
-Copyright: CrystalDaEevee
-License: CC0
-
-Files:
  pyramidwall.jpg
  pyramidwall_nm.png
  bumpy_surface.png

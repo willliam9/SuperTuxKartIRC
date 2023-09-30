@@ -5,7 +5,7 @@
       icon-file         = "adiumyicon.png"
       minimap-icon-file = "adiumyicon.png"
       shadow-file       = "adiumyshadow.png"
-      type              = "light-medium"
+      type              = "medium"
       groups            = "standard"
       rgb               = "0.00 0.70 0.00" >
   <sounds engine = "small">
