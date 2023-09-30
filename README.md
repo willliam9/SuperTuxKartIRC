@@ -13,3 +13,4 @@ https://github.com/willliam9/SuperTuxKartIRC/releases/tag/pre-release
 - Did a forgot something ...
 
 # If you have any suggestions for improving what I've done, let me know.
+- Discord SuperTuxKart IRC chanel:  https://discord.com/channels/376120568908611594/588002848051036169
