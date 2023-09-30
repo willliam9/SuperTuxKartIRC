@@ -4,6 +4,8 @@ SuperTuxKart for the member of the SuperTuxKart IRC chanel
 Pre-release :
 https://github.com/willliam9/SuperTuxKartIRC/releases/tag/pre-release
 
+# To download the source code
+https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md
 
 # Features we haven't finished but are supposed to be there
 - Victory screen for 4 teams (the victory screen is currently not correct)
