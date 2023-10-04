@@ -1,3 +1,5 @@
+# This repo is now dead. Please refer to this repo now : https://github.com/SuperTuxKartIRC/stk-code
+
 # SuperTuxKartIRC
 SuperTuxKart for the member of the SuperTuxKart IRC chanel 
 
